@@ -1,0 +1,56 @@
+{
+  "openapi" : "3.0.1",
+  "info" : {
+    "title" : "Globant",
+    "version" : "2023-01-06T15:45:15Z"
+  },
+  "servers" : [ {
+    "url" : "https://9cev9nfpo4.execute-api.us-east-1.amazonaws.com/{basePath}",
+    "variables" : {
+      "basePath" : {
+        "default" : "/dev"
+      }
+    }
+  } ],
+  "paths" : {
+    "/{bucket}/{filename}" : {
+      "put" : {
+        "parameters" : [ {
+          "name" : "filename",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        }, {
+          "name" : "bucket",
+          "in" : "path",
+          "required" : true,
+          "schema" : {
+            "type" : "string"
+          }
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "200 response",
+            "content" : {
+              "application/json" : {
+                "schema" : {
+                  "$ref" : "#/components/schemas/Empty"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components" : {
+    "schemas" : {
+      "Empty" : {
+        "title" : "Empty Schema",
+        "type" : "object"
+      }
+    }
+  }
+}

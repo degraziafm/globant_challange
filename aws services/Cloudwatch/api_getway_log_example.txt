@@ -1,0 +1,22 @@
+2023-01-06T14:07:06.212-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Extended Request Id: eVJBIFBkoAMFVfQ=
+2023-01-06T14:07:06.213-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Verifying Usage Plan for request: edfc6718-8957-40b5-bb87-46a4965904f0. API Key: API Stage: 9cev9nfpo4/dev
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) API Key authorized because method 'PUT /{bucket}/{filename}' does not require API Key. Request will not contribute to throttle or quota limits
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Usage Plan check succeeded for API Key and API Stage 9cev9nfpo4/dev
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Starting execution for request: edfc6718-8957-40b5-bb87-46a4965904f0
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) HTTP Method: PUT, Resource Path: /globant-landing/hired_employees.csv
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method request path: {bucket=globant-landing, filename=hired_employees.csv}
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method request query string: {}
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method request headers: {Accept=*/*, User-Agent=curl/7.83.1, X-Forwarded-Proto=https, X-Forwarded-For=181.44.116.103, Host=9cev9nfpo4.execute-api.us-east-1.amazonaws.com, X-Forwarded-Port=443, X-Amzn-Trace-Id=Root=1-63b8553a-5d153a2b51b2cb615fb04037, Content-Type=*/csv}
+2023-01-06T14:07:06.215-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method request body before transformations: 9876,Federico De Grazia,2021-11-07T02:48:42Z,297,546
+2023-01-06T14:07:06.252-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Endpoint request URI: https://s3-external-1.amazonaws.com/globant-landing/hired_employees.csv
+2023-01-06T14:07:06.252-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Endpoint request headers: {Authorization=******************************************************************************************************************************************************************************************************************************************************************************************498f28, X-Amz-Date=20230106T170706Z, x-amzn-apigateway-api-id=9cev9nfpo4, Accept=*/csv, User-Agent=AmazonAPIGateway_9cev9nfpo4, X-Amz-Security-Token=IQoJb3JpZ2luX2VjENr//////////wEaCXVzLWVhc3QtMSJHMEUCIHKM57CH4PV6MPShIqugMdOrTejXixZl5NZjacYPbqU6AiEAhVS8mkwh2Kj7qXiUTbjHKfAFAQ4obj1hRWJd6xDHSf8q5QIIMhAAGgwyMDQxNzIyNDQ4ODAiDFQ6e6mPvlmQBJq2fyrCApmYoT2LodtU/3l1sD3xcmpufXe5L9b0yqh9gVI0DYb8dYe0fzz+mrs6Vb1vr0srWiH1DEXV2AKhkApMNc1r0u+UpZFGTg3rFKux/EtqG3E1yMlcV8z/bXho1ksutHLbJX86JQV/7A3ZbMEpw7mpdtghdtdzqS5/sy0seJN2HZ+rq3qpqNaIVqqg+FXZ6RFIYUAZ0nbTMXvS2J/O+5wYrzbWLwLBVXO1MgVRkpu7Q/RgwBD4nYu1FJelaupmroeF1ousFyg650dtW0d2aP+c90JfLwXT/VdSCzqtd2wiqVJ+fnOjjXBhvAwQQcvh0sdp1eeZb5gmbcp3e78Y70+Pyf6fvojXCHXn6av47hFq [TRUNCATED]
+2023-01-06T14:07:06.252-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Endpoint request body after transformations: 9876,Federico De Grazia,2021-11-07T02:48:42Z,297,546
+2023-01-06T14:07:06.252-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Sending request to https://s3-external-1.amazonaws.com/globant-landing/hired_employees.csv
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Received response. Status: 200, Integration latency: 52 ms
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Endpoint response headers: {x-amz-id-2=jahrdBmpx2fISAVVfCZVwxctjwikQuaH7wadey//eOrSFpJyzdARmC9oZGbd2re2gwXQ6cKKgzU=, x-amz-request-id=5FEXS3A7TXV828PG, Date=Fri, 06 Jan 2023 17:07:07 GMT, ETag="a53b6c66e5105058f9d12157625331ed", Server=AmazonS3, Content-Length=0}
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Endpoint response body before transformations:
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method response body after transformations:
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method response headers: {X-Amzn-Trace-Id=Root=1-63b8553a-5d153a2b51b2cb615fb04037, Content-Type=application/json}
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Successfully completed execution
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) Method completed with status: 200
+2023-01-06T14:07:06.304-03:00	(edfc6718-8957-40b5-bb87-46a4965904f0) AWS Integration Endpoint RequestId : 5FEXS3A7TXV828PG

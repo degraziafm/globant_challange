@@ -1,0 +1,30 @@
+2023-01-06T15:47:54.268-03:00	OpenBLAS WARNING - could not determine the L2 cache size on this system, assuming 256k
+2023-01-06T15:47:56.134-03:00	START RequestId: f65ee962-3b55-4c1f-ad59-e2418cfdd9d8 Version: $LATEST
+2023-01-06T15:47:56.135-03:00	event: {'Records': [{'eventVersion': '2.1', 'eventSource': 'aws:s3', 'awsRegion': 'us-east-1', 'eventTime': '2023-01-05T21:51:21.943Z', 'eventName': 'ObjectCreated:Put', 'userIdentity': {'principalId': 'AYBSKVTKPXK0K'}, 'requestParameters': {'sourceIPAddress': '181.44.116.103'}, 'responseElements': {'x-amz-request-id': '899NZ6SCMD7GECD1', 'x-amz-id-2': 'rNMahZyWkIQj9A6i0D++r6lQZgx2HHgaXIitJlc1PX+fXiS4LEOg7P0aOJxoPm+FNc4i6RMc9PbbK+7p6VRnue+V+/5djD0F'}, 's3': {'s3SchemaVersion': '1.0', 'configurationId': 'lambda_execution', 'bucket': {'name': 'globant-landing', 'ownerIdentity': {'principalId': 'AYBSKVTKPXK0K'}, 'arn': 'arn:aws:s3:::globant-landing'}, 'object': {'key': 'jobs.csv', 'size': 68, 'eTag': 'b1fc906f6ca3c93b416a397cfb1fb391', 'sequencer': '0063B74659E6AFAD28'}}}]}
+2023-01-06T15:47:56.135-03:00	Making client for aws service, s3
+2023-01-06T15:47:56.816-03:00	Loading csv file: jobs.csv
+2023-01-06T15:47:56.977-03:00	Get parameters for aws parameter store
+2023-01-06T15:47:56.977-03:00	Making client for aws service, ssm
+2023-01-06T15:47:57.342-03:00	Connecting to database
+2023-01-06T15:47:57.574-03:00	Query to execute: INSERT INTO jobs (id,job) VALUES(%s,%s)
+2023-01-06T15:47:57.795-03:00	df_ok: id job
+2023-01-06T15:47:57.795-03:00	0 1 Marketing Assistant
+2023-01-06T15:47:57.795-03:00	1 2 VP Sales
+2023-01-06T15:47:57.795-03:00	2 3 Biostatistician IV
+2023-01-06T15:47:57.795-03:00	3 4 Account Representative II
+2023-01-06T15:47:57.795-03:00	4 5 VP Marketing
+2023-01-06T15:47:57.795-03:00	.. ... ...
+2023-01-06T15:47:57.795-03:00	178 179 Software Engineer II
+2023-01-06T15:47:57.795-03:00	179 180 Statistician IV
+2023-01-06T15:47:57.795-03:00	180 181 Programmer Analyst I
+2023-01-06T15:47:57.795-03:00	181 182 Account Representative I
+2023-01-06T15:47:57.795-03:00	182 183 Administrative Assistant IV
+2023-01-06T15:47:57.795-03:00	[183 rows x 2 columns]
+2023-01-06T15:47:58.005-03:00	Query executed
+2023-01-06T15:47:58.015-03:00	df_wrong: Empty DataFrame
+2023-01-06T15:47:58.015-03:00	Columns: [id, job]
+2023-01-06T15:47:58.015-03:00	Index: []
+2023-01-06T15:47:58.035-03:00	Making client for aws service, s3
+2023-01-06T15:47:58.195-03:00	Execution finished.
+2023-01-06T15:47:58.238-03:00	END RequestId: f65ee962-3b55-4c1f-ad59-e2418cfdd9d8
+2023-01-06T15:47:58.238-03:00	REPORT RequestId: f65ee962-3b55-4c1f-ad59-e2418cfdd9d8	Duration: 2098.32 ms	Billed Duration: 2099 ms	Memory Size: 256 MB	Max Memory Used: 183 MB	Init Duration: 2344.45 ms
